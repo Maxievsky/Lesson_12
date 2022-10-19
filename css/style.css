@@ -1,0 +1,172 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+
+
+
+.rick-and-mrty {
+
+	background: url('../img/mesmerizing-view-silhouettes-trees-sunset-sky.jpg') 0 0/cover no-repeat;
+	position: relative;
+
+
+}
+.rick-and-mrty__boden {
+	background: url('../img/boden.png') 0 0/cover no-repeat;
+	max-width: 100%;
+	height: 1000px;
+
+}
+
+.rick-and-mrty__comet {
+	position: absolute;
+	background: url('../img/planet-01.png') 0 0/100% auto no-repeat;
+	width: 100px;
+	height: 100px;
+	top: 10px;
+	left: 100px;
+	z-index: 1;
+	transform: translate(400%, 400%)scale(10);
+	transition-duration: 20s;
+
+}
+
+
+
+.rick-and-mrty__plate {
+	position: absolute;
+	background: url('../img/ship.png') 0 0/100% auto no-repeat;
+	width: 300px;
+	height: 250px;
+	top: 66px;
+	left: 400px;
+	z-index: 2;
+	transform: translate(200%, 100%)scale(0);
+	transition-duration: 10s;
+
+	
+
+
+}
+
+
+.rick-and-mrty__morty {}
+
+.rick-and-mrty__earth {
+	position: absolute;
+	background: url('../img/planet-03.png') 0 0/100% auto no-repeat;
+	width: 100px;
+	height: 100px;
+	top: 30px;
+	left: 400px;
+	z-index: 1;
+	transform: rotate(180deg);
+	transition-duration: 30s;
+
+}
+
+.rick-and-mrty__venus {}
+
+.rick-and-mrty__moon {
+	position: absolute;
+	background: url('../img/planet-08.png') 0 0/100% auto no-repeat;
+	width: 40px;
+	height: 40px;
+	top: 80px;
+	left: 500px;
+	z-index: 1;
+	transform: rotate(-180deg);
+	transition-duration: 10s;
+	
+	
+}
+
+.rick-and-mrty__stars {}
+
+.rick-and-mrty__saturn {
+	position: absolute;
+	background: url('../img/planet-07.png') 0 0/100% auto no-repeat;
+	width: 150px;
+	height: 150px;
+	top: 140px;
+	left: 750px;
+	z-index: 2;
+	transform: skew(5deg, 60deg);
+	transition-duration: 20s;
+
+
+
+
+
+}
+
+.rick-and-mrty__sun {}
+
+.rick-and-mrty__rock {}
+
+.footer{
+
+}
+ .morty {
+	position: relative;
+	perspective: 400px;
+	
+ }
+
+ .morty__head--1 {
+	position: absolute;
+	background: url('../img/morty.png') 0 0/100% auto no-repeat;
+		width: 150px;
+		height: 150px;
+		top: 100px;
+		left: 50px;
+		transform: translate(0, -50px) scale(1.3) rotate(180deg);
+
+
+ }
+
+ .morty__head--2 {
+		position: absolute;
+		background: url('../img/morty.png') 0 0/100% auto no-repeat;
+			width: 150px;
+			height: 150px;
+			top: 100px;
+			left: 250px;
+			 transform-origin: top left;
+			transform: rotate(45deg);
+			
+
+ }
+
+ .morty__head--3 {
+		position: absolute;
+		background: url('../img/morty.png') 0 0/100% auto no-repeat;
+			width: 150px;
+			height: 150px;
+			top: 100px;
+			left: 450px;
+			transform: rotateX(45deg);
+ }
+
+ .morty__head--4 {
+		position: absolute;
+		background: url('../img/morty.png') 0 0/100% auto no-repeat;
+			width: 150px;
+			height: 150px;
+			top: 100px;
+			left: 650px;
+			transform: rotateY(30deg);
+ }
+
+ .morty__head--5 {
+		position: absolute;
+		background: url('../img/morty.png') 0 0/100% auto no-repeat;
+			width: 150px;
+			height: 150px;
+			top: 100px;
+			left: 850px;
+			transform: rotateY(150deg);
+			backface-visibility: visible;
+ }
